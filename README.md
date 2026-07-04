@@ -56,8 +56,7 @@ Real Azure work rarely goes in a straight line. Documenting the friction here on
 - **Windows SSH key permissions.** Ubuntu's SSH client refuses to use a private key with overly-open file permissions. Fixed with `icacls` to restrict the key file to the current user only — and learned that external/removable drives can behave inconsistently with Windows ACLs, so the key was relocated to the system drive.
 
 ## What's next
-
-- [ ] Rebuild this same environment using Azure CLI (scripted, repeatable deployment)
+- [x] Rebuild this same environment using Azure CLI — see [`deploy.sh`](./deploy.sh)
 - [ ] Rebuild using Terraform (Infrastructure as Code)
 - [ ] Add a budget/cost-alerting writeup
 - [ ] Second project: multi-tier network (web + app subnets, NSG rules between tiers)
