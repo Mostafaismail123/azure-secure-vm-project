@@ -57,7 +57,7 @@ Real Azure work rarely goes in a straight line. Documenting the friction here on
 
 ## What's next
 - [x] Rebuild this same environment using Azure CLI — see [`deploy.sh`](./deploy.sh)
-- [ ] Rebuild using Terraform (Infrastructure as Code)
+- [x] Rebuild using Terraform — see [`main.tf`](./main.tf)
 - [ ] Add a budget/cost-alerting writeup
 - [ ] Second project: multi-tier network (web + app subnets, NSG rules between tiers)
 
